@@ -27,8 +27,8 @@ Start-Transcript -Path c:\ProgramData\Admin_Rights.log -Append -Force
 ####################################################
 
     #Required credentials - Get the client_id and client_secret from the app when creating it in Azure AD
-    #$client_id = "3d5b9ebf-38fc-424b-b1ce-20ddee007749" #App ID - Powershell API Access
-    #$client_secret = "-Sr7Q~oBoTTBRXFh4Z.yMw3YaSa8iePuTeli5" #API Access Key Password
+    #$client_id = "" #App ID - Powershell API Access
+    #$client_secret = "" #API Access Key Password
 
     $client_id = "appid"
     $client_secret = "secret"
