@@ -178,7 +178,7 @@ $business = Get-MGUser -UserId $UserID -Property onPremisesExtensionAttributes |
 
 
 # Device Attritubutes
-# (Chasis type, uBild method detection, and OS version) 
+# (Chasis type, Build method detection, and OS version) 
 
 # ... (Chasis)
 if ($battery -eq $null) {
